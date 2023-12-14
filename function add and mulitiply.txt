@@ -1,0 +1,28 @@
+#include<stdio.h>
+int rectangular(int x,int y){
+    int z;
+    z=x*y;
+    return z;
+}
+int add(int x,int y){
+    int z;
+    z=x+y;
+    return z;
+}
+int main()
+{
+    int len,bre,u,m;
+    scanf("%d",&len);
+    scanf("%d",&bre);
+    m=rectangular(len,bre);
+    int a=10;
+    int b=20;
+    int c;
+    c=rectangular(a,b);
+    u=add(len,bre);
+    printf("%d",m);
+    printf("\n");
+    printf("%d",u);
+    printf("\n");
+    printf("%d",c);
+}
